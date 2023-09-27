@@ -61,4 +61,4 @@ app = gr.Interface(
     outputs=output, title = 'Mouse Age Predictor (in months) Using Plasma Protein Output', theme='finlaymacklon/smooth_slate'
 )
 if __name__ == "__main__":
-    app.launch(auth = ('admin', 'alkpass123'), share=False)
+    app.launch(share=False)
